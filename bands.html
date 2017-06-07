@@ -11,21 +11,35 @@
 </head>
 <body>
 <header>
-  <nav class='navbar navbar-default navbar-static-top'>
-    <div class='container'>
-      <a href='index.html' class='navbar-brand'>PVD MusicHub</a>
-      <ul class='nav nav-pills navbar-right'>
-        <li><a href='bands.html'>Bands</a></li>
-        <li><a href='shows.html'>Shows</a></li>
-        <li><a href='venues.html'>Venues</a></li>
-      </ul>
-    </div>
-  </nav>
-</header>
+    <!-- This header needs to be copied into other pages -->
+    <nav class='navbar navbar-inverse navbar-static-top'>
+      <div class='container'>
+        <div class='navbar-header'>
+          <a href='index.html' class='navbar-brand'>PVD MusicHub</a>
+          <button type='button' class='btn btn-default navbar-toggle' data-toggle='collapse' data-target='#bs-button-toggle' aria-pressed='false' autocomplete='off'>
+            <span class='sr-only'>Toggle Navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+        </div>
+
+        <div class='collapse navbar-collapse' id='bs-button-toggle'>
+          <ul class='nav navbar-nav navbar-right '>
+            <li><a href='bands.html'>Bands</a></li>
+            <li><a href='shows.html'>Shows</a></li>
+            <li><a href='venues.html'>Venues</a></li>
+          </ul>
+        </div>
+        
+
+      </div>
+    </nav>
+  </header>
 
 <div class="container">
   <div class='row'>
-    <div class='col-md-8' id='news'>
+    <div class='col-md-8 primary' id='news'>
       <h3 class='well'>Bands</h3>
       <p>A list of all your favorite very cool Providence bands.</p>
     </div>
